@@ -17,7 +17,7 @@ function preload(){
 }
 
 function setup(){
-    canvas = createCanvas(displayWidth,displayHeight);
+    canvas = createCanvas(widnowWidth,windowHeight);
      player = createSprite(displayWidth/2,displayHeight/2);
      player.addImage(playerleftImage); 
      //player.addImage(playerrightImage);
